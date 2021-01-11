@@ -1,0 +1,24 @@
+/* Eléments principaux de la page */
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+H1
+{
+    font-size: 1.5em;
+    
+}
+
+h2
+{
+    font-size: 1em;
+}
+
+.aubergecanebiere, .hotel_port, .hotel_mouettes, .hotel_mer, .auberge_panier, .hotel_amina
+{
+	width: 250px;
+    height: auto;
+}
+
