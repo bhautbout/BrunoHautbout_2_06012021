@@ -3,22 +3,283 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+
+    font-weight: normal;
+    margin: 3%;
 }
 
 H1
 {
-    font-size: 1.5em;
-    
+    font-size: 0.9em;
+    font-weight: 500;
 }
 
 h2
 {
-    font-size: 1em;
+    font-size: 0.7em;
+    font-weight: 200;
 }
 
-.aubergecanebiere, .hotel_port, .hotel_mouettes, .hotel_mer, .auberge_panier, .hotel_amina
+h3
+
 {
-	width: 250px;
+    font-size: 0.5em;
+}
+
+ul
+
+{
+    display: flex;
+    list-style-type: none;
+}  
+/*Header*/
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo img
+{
+    width: 63px;
+    height: 33px;
+}
+
+/*Navigation*/
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav a
+{
+    font-size: 0.7em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav li
+{
+    margin-right: 40px;
+}
+
+nav a:hover
+{
+    color:#0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+/*Zone de recherche*/
+
+#zone_recherche
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+#barre_recherche
+{
+        display: flex;
+        align-items:baseline;
+}
+.barre_recherche i
+{
+   border: 10px solid #F2F2F2;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   background: #F2F2F2;
+   
+}
+
+input
+{
+    border: 1.5px solid #F2F2F2;
+    height: 2.5em;
+    margin-left:auto;
+    vertical-align: middle;
+        
+}
+
+.bouton_recherche
+{
+    cursor: pointer;
+    border: 10px solid #0065FC;
+    background: #0065FC;
+    color: #ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 2.9em;
+    margin-left: -4px;
+    vertical-align: middle;    
+}
+
+/*SECTION DES FILTRES*/
+
+#filtres
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 30px;
+    align-items: baseline;
+    width: 100%;
+}
+
+.titre_filtres h2, .filtre_economique h2, .filtre_familial h2, .filtre_romantique h2, .filtre_animaux h2
+
+{
+    font-weight: 500;
+}
+
+.filtre_economique:hover, .filtre_familial:hover, .filtre_romantique:hover, .filtre_animaux:hover
+{
+    background: #DEEBFF;
+}
+
+.filtre_economique, .filtre_familial, .filtre_romantique, .filtre_animaux
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: stretch;
+    margin-left:10px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    border-left: 10px;
+    height: 35px;
+    width: 15%;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+
+{
+    margin-right: 10px;
+    margin-left: 0px;
+    color: #0065FC;
+    background: #DEEBFF;
+    border: 10px solid #DEEBFF;
+    border-radius: 100%;
+}
+.nbrelogements
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+
+.fa-circle
+{
+    color: #F2F2F2;
+}
+.fa-info
+{
+    color: #0065FC;
+}
+.fa-stack
+{
+    font-size: 10px;
+}
+
+/*SECTION HEBERGEMENTS*/
+
+.hebergements
+
+{
+    display: flex;
+    background-color:#F2F2F2 ;
+    border-radius: 25px;
+    justify-content: space-between;
+    width: 65%;
+    padding:50px;
+}
+
+.hebergement_titre
+
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.fa-star
+{
+    color: #0065FC;
+    font-size:0.5rem;
+}
+
+.fa-star.gris
+{
+    color: #F2F2F2;
+    font-size:0.5rem;
+}
+
+#aubergecanebiere, #hotel_port, #hotel_mouettes, #hotel_mer, #auberge_panier, #hotel_amina
+{
+    
+}
+
+/*SECTION ASIDE*/
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    background: #F2F2F2;
+    border-radius: 25px;
+    float: right;
+    width: 35%;
     height: auto;
+   
+}
+.aside img
+{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+
+/*SECTION ACTIVITES*/
+
+#activites
+
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+}
+
+#activite_1
+
+{
+    display: flex;
+    width: 20%;
+    height: 250px;
+    color: white;
+}
+.vieuxport
+
+{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #e9e4e2;
+    width: 100%;
+    height: 200px;
 }
 
