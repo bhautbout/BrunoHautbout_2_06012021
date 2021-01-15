@@ -3,6 +3,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    width: 1440px;
+    margin: auto;
 
     font-weight: normal;
     margin: 3%;
@@ -10,20 +12,21 @@ body
 
 H1
 {
-    font-size: 0.9em;
+    font-size: 1.5em;
     font-weight: 500;
 }
 
 h2
 {
-    font-size: 0.7em;
-    font-weight: 200;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 h3
 
 {
-    font-size: 0.5em;
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 ul
@@ -200,35 +203,63 @@ input
 
 {
     display: flex;
+    align-items: center;
     background-color:#F2F2F2 ;
-    border-radius: 25px;
-    justify-content: space-between;
-    width: 65%;
-    padding:50px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 880px;
+    height: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.hebergement_titre
+.hebergements-titre
 
 {
-    display: flex;
-    justify-content: flex-start;
+    width: 100%;
+    padding-left: 10px;
+}
+.hebergements-1, .hebergements-2, .hebergements-3, .hebergements-4, .hebergements-5, .hebergements-6
+
+{
+    align-items: center;
+    padding: 6px;
+    height: 220px;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+.cannebiere img, .hotelport img, .hotelmouettes img, .hotelmer img, .aubergepanier img, .hotelamina img
+{
+    width: 100%;
+    height: 115px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cannebiere_descrip, .hotelport_descrip, .hotelmouettes_descrip, .hotelmer_descrip, .hotelmer_descrip, .aubergepanier_descrip, .hotelamina_descrip
+
+{
+padding-left: 10px;
+}
+
+.afficherplus
+
+{
+    margin-left: 10px;
     width: 100%;
 }
 .fa-star
 {
     color: #0065FC;
-    font-size:0.5rem;
+    font-size:0.8rem;
 }
 
 .fa-star.gris
 {
     color: #F2F2F2;
-    font-size:0.5rem;
-}
-
-#aubergecanebiere, #hotel_port, #hotel_mouettes, #hotel_mer, #auberge_panier, #hotel_amina
-{
-    
+    font-size:0.8rem;
 }
 
 /*SECTION ASIDE*/
