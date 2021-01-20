@@ -3,11 +3,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    width: 1440px;
-    margin: auto;
-
+    margin: 0;
     font-weight: normal;
-    margin: 3%;
 }
 
 H1
@@ -34,7 +31,13 @@ ul
 {
     display: flex;
     list-style-type: none;
-}  
+} 
+
+header, .section-recherche, .section-herbergements, .section-activites
+
+{
+    padding: 0 45px;
+}
 /*Header*/
 
 #titre_principal
@@ -182,8 +185,6 @@ input
     align-items: center;
 }
 
-
-
 .fa-circle
 {
     color: #F2F2F2;
@@ -199,27 +200,34 @@ input
 
 /*SECTION HEBERGEMENTS*/
 
+.section-herbergements
+{
+    display: flex;
+}
+.section-herbergements > article
+{
+    width: 65%;
+}
+.section-herbergements > aside
+{
+    width: 30%;
+    padding: 35px;
+}
 .hebergements
+{
+    background-color:#F2F2F2 ;
+    border-radius: 10px;
+    padding: 35px;
+}
 
+.liste-hebergements
 {
     display: flex;
     align-items: center;
-    background-color:#F2F2F2 ;
-    border-radius: 10px;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 880px;
-    height: 700px;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: space-between;
 }
 
-.hebergements-titre
-
-{
-    width: 100%;
-    padding-left: 10px;
-}
 .hebergements-1, .hebergements-2, .hebergements-3, .hebergements-4, .hebergements-5, .hebergements-6
 
 {
@@ -228,7 +236,9 @@ input
     height: 220px;
     width: 30%;
     background-color: white;
+    box-shadow: 4px 4px 6px #aaa;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .cannebiere img, .hotelport img, .hotelmouettes img, .hotelmer img, .aubergepanier img, .hotelamina img
 {
@@ -236,6 +246,7 @@ input
     height: 115px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover;
 }
 
 .cannebiere_descrip, .hotelport_descrip, .hotelmouettes_descrip, .hotelmer_descrip, .hotelmer_descrip, .aubergepanier_descrip, .hotelamina_descrip
@@ -269,48 +280,215 @@ aside
     display: flex;
     flex-direction: column;
     background: #F2F2F2;
-    border-radius: 25px;
-    float: right;
-    width: 35%;
-    height: auto;
+    border-radius: 15px;
+    margin-left: 20px;
    
 }
+.aside
+
+{
+    margin-bottom: 25px;
+}
+
 .aside img
 {
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    width: 129px;
+    height: 130px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     
 }
 
+.aside-titre
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aside figure
+{
+    display: flex;
+    background: #ffffff;
+    border: 4px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+#aside
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside figcaption
+{
+    padding-left: 10px;
+}
+.aside span
+{
+    margin-top: 20px;
+}
 /*SECTION ACTIVITES*/
 
-#activites
+
+.activites
 
 {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1420px;
+    
 }
 
-#activite_1
+.titre_activites
 
 {
     display: flex;
-    width: 20%;
-    height: 250px;
-    color: white;
-}
-.vieuxport
-
-{
-    display: flex;
-    margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px #e9e4e2;
     width: 100%;
+    margin-left: 25px;
+
+}
+
+.activites1
+
+{
+    width: 300px;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 4px 4px 6px #aaa;
+    border-radius: 15px;
+
+}
+
+.activites1 img
+
+{
+    width: 100%;
+    height: 450px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites23, .activites56
+
+{
+    width: 300px;
+    height: 450px;
+    margin-left: 25px;
+    background-color: white;
+   
+}
+
+.activites2
+
+{
+    height: 240px;
+    width: 100%;
+    box-shadow: 4px 4px 6px #aaa;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.activites2 img
+
+{
     height: 200px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
+.activites3
+{
+    height: 170px;
+    width: 100%;
+    box-shadow: 4px 4px 6px #aaa;
+    border-radius: 15px;
+}
+
+.activites3 img
+
+{
+    height: 170px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites4
+
+{
+    width: 300px;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 4px 4px 6px #aaa;
+    border-radius: 15px;
+
+}
+
+.activites4 img
+
+{
+    width: 100%;
+    height: 450px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites5
+
+{
+    height: 197px;
+    width: 100%;
+    box-shadow: 4px 4px 6px #aaa;
+    border-radius: 15px;
+    margin-bottom: 105px;
+}
+
+.activites5 img
+{
+    height: 140px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites6
+
+{
+    height: 200px;
+    width: 300px;
+    box-shadow: 4px 4px 6px #aaa;
+    border-radius: 15px;
+}
+
+.activites6 img
+
+{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#footer
+
+{
+    display: flex;
+    background: #F2F2F2;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.apropos
+
+{
+    display: flex;
+    
+ 
+}
