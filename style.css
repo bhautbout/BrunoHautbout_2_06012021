@@ -17,6 +17,10 @@ h2
 {
     font-size: 1em;
     font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
 h3
@@ -362,12 +366,12 @@ aside
 .activites-1
 
 {
+    display: flex;
     width: 20%;
     height: 450px;
     background-color: white;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
-    padding-bottom: 15px;
 
 }
 
@@ -375,21 +379,23 @@ aside
 
 {
     width: 100%;
-    height: 90%;
+    height: 80%;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    box-sizing: border-box;
+    
 }
 
 .activites-23, .activites-56
 {
     display: flex;
-    flex-direction: row;
     align-content: space-between;
     width: 20%;
     flex-wrap: wrap;
     height: 450px;
     background-color: white;
+    box-sizing: border-box;
    
 }
 
@@ -397,9 +403,11 @@ aside
 
 {
     width: 100%;
-    height: 315px;
+    height: 300px;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
 }
 
 .activites-2 img
@@ -419,6 +427,7 @@ aside
     height: 135px;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 .activites-3 img
@@ -439,6 +448,7 @@ aside
     background-color: white;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
+    box-sizing: border-box;
 
 }
 
@@ -460,6 +470,7 @@ aside
     height: 200px;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 .activites-5 img
@@ -478,6 +489,7 @@ aside
     width: 100%;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 .activites-6 img
@@ -490,10 +502,6 @@ aside
 
 }
 
-.activites span
-{
-    margin-left: 15px;
-}
 
 /*--SECTION FOOTER--*/
 
