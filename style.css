@@ -37,10 +37,11 @@ ul
     list-style-type: none;
 } 
 
-header, .section-recherche, .section-herbergements, .section-activites
+header, .section-recherche, .section-hebergements, .section-activites, footer
 
 {
-    padding: 0 10px;
+    padding-right: 35px;
+    padding-left: 35px;
 }
 /*Header*/
 
@@ -224,14 +225,16 @@ input
 .section-hebergements
 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .section-hebergements > article
 {
-    width: 65%;
+    width: 62%;
 }
 .section-hebergements > aside
 {
-    width: 30%;
+    width: 25%;
     padding: 35px;
 }
 .hebergements
@@ -359,6 +362,7 @@ aside
 .section-activites
 {
     display: flex;
+    margin-bottom: 50px;
 }
 .section-activites > .activites
 {
@@ -523,10 +527,8 @@ aside
 /*--SECTION FOOTER--*/
 
 
-.footer
-
+footer
 {
-    width: 100%;
     background-color: #F2F2F2;
 }
 #footer
@@ -534,9 +536,7 @@ aside
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 30px;
     padding-bottom: 30px;
-    width: 100%;
 }
 
 #apropos
