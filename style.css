@@ -221,15 +221,15 @@ input
 
 /*SECTION HEBERGEMENTS*/
 
-.section-herbergements
+.section-hebergements
 {
     display: flex;
 }
-.section-herbergements > article
+.section-hebergements > article
 {
     width: 65%;
 }
-.section-herbergements > aside
+.section-hebergements > aside
 {
     width: 30%;
     padding: 35px;
@@ -555,10 +555,10 @@ aside
 
 /*--STYLE MOBILE*/
 
-@media (max-width:768px)
+@media screen and (max-width:768px)
 {
+    
     .logo img
-
     {
         width: 200%;
     }
@@ -578,7 +578,6 @@ aside
     {
         padding-bottom: 10px;
     }
-
     .slogan h1
     {
         font-size: 1.2em;
@@ -593,12 +592,17 @@ aside
     }
 
     /*HEBERGEMENT*/
-    .section-herbergements
-        {
+
+    .section-hebergements
+    {
             flex-direction: column-reverse;
             width: 100%;
-        }
-    .section-herbergements > article
+    }
+    .section-hebergements > article
+    {
+        width: 100%;
+    }
+    .section-hebergements > aside
     {
         width: 100%;
     }
@@ -617,13 +621,13 @@ aside
     }
     .section-herbergements > aside
     {
-        width: 110%;
+        width: 100%;
         padding-left: 10px;
         padding-right: 20px;
         margin-bottom: 30px;
         padding-top: 10px;
     }
-    .section-herbergements
+    .section-hebergements
     {
         padding: 0;
     }
@@ -636,16 +640,7 @@ aside
     {
         font-size: 1.2em;
     }
-    #aside
-    {
-        width: 90%;
-    }
-
-    .hoteldumatin
-
-    {
-        width: 100%;
-    }
+/*SECTION ACTIVITES*/
 
     #titre-activites h1
     {
@@ -669,6 +664,19 @@ aside
     .activites-1 img
     {
         height: 200px;
-        width: 82%;
+        width: 100%;
+    }
+
+    /*FOOTER*/
+
+    #footer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #apropos, #noshebergements, #assistance
+    {
+        width: 100%;
     }
 }
