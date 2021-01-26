@@ -44,36 +44,47 @@ header, .section-recherche, .section-herbergements, .section-activites
 }
 /*Header*/
 
-#titre_principal
+#logo-titre
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
 }
 
-#logo
+.logo
 {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    width: 100%;
 }
 
 .logo img
 {
-    width: 63px;
-    height: 33px;
+    width: auto;
+    height: auto;
 }
 
 /*Navigation*/
 
-nav ul
+#logo-navigation
 {
-    list-style-type: none;
+    
     display: flex;
+    padding-top: 10px;
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
+}
+#navigation
+
+{
+    list-style-type: none;
+    justify-content: flex-end;
+}
+.logo
+{
+    display: flex;
+    justify-content: flex-start;
 }
 
 nav a
@@ -170,6 +181,7 @@ input
     cursor: pointer;
     justify-content: stretch;
     margin-right:10px;
+    padding-right: 20px;
     border: 2px solid #F2F2F2;
     border-radius: 30px;
     border-left: 10px;
@@ -545,14 +557,118 @@ aside
 
 @media (max-width:768px)
 {
+    .logo img
+
+    {
+        width: 200%;
+    }
     .activites-1, .activites-23, .activites-4, .activites-56
     {
-        width: 48%;
+        width: 115%;
     }
     .titre_filtres
     {
         width: 100%;
     }
-    
+    #filtres
+    {
+        flex-flow: column;
+    }
+    .titre_filtres
+    {
+        padding-bottom: 10px;
+    }
 
+    .slogan h1
+    {
+        font-size: 1.2em;
+    }
+    .slogan h2
+    {
+        font-size: 0.8em;
+    }
+    .nbrelogements h2
+    {
+        font-size: 0.8em;
+    }
+
+    /*HEBERGEMENT*/
+    .section-herbergements
+        {
+            flex-direction: column-reverse;
+            width: 100%;
+        }
+    .section-herbergements > article
+    {
+        width: 100%;
+    }
+    .hebergements-1, .hebergements-2, .hebergements-3, .hebergements-4, .hebergements-5, .hebergements-6
+    {
+        width: 100%;
+    }
+    .hebergements
+    {
+        border-radius: 0;
+        padding: 0%;
+    }
+    #hebergements-titre h1
+    {
+        font-size: 1.2em;
+    }
+    .section-herbergements > aside
+    {
+        width: 110%;
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }
+    .section-herbergements
+    {
+        padding: 0;
+    }
+    aside
+    {
+        margin: 0;
+        border-radius: 0;
+    }
+    .aside-titre h1
+    {
+        font-size: 1.2em;
+    }
+    #aside
+    {
+        width: 90%;
+    }
+
+    .hoteldumatin
+
+    {
+        width: 100%;
+    }
+
+    #titre-activites h1
+    {
+        font-size: 1.2em;
+    }
+    .section-activites
+    {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section-activites > .activites
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .activites
+    {
+        width: 100%;
+    }
+    .activites-1 img
+    {
+        height: 200px;
+        width: 82%;
+    }
 }
