@@ -605,6 +605,7 @@ aside
     .section-hebergements > aside
     {
         width: 100%;
+        padding: 0;
     }
     .hebergements-1, .hebergements-2, .hebergements-3, .hebergements-4, .hebergements-5, .hebergements-6
     {
