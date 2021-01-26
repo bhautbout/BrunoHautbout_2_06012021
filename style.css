@@ -639,9 +639,13 @@ aside
     }
     .aside-titre h1
     {
+        
+        font-size: 1.2em;
+    }
+    .aside-titre
+    {
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 1.2em;
     }
 /*SECTION ACTIVITES*/
 
