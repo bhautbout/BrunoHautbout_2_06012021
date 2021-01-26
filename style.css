@@ -687,11 +687,11 @@ aside
     {
         width: 100%;
     }
-    #apropos h1, #noshebergements h1, #assistance h1
+    .footer h1
     {
         font-size: 1.2em;
     }
-    #apropos h2, #noshebergements h2, #assistance h2
+    .footer h2
     {
         font-size: 0.8em;
     }
