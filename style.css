@@ -564,11 +564,17 @@ footer
     }
     .activites-1, .activites-23, .activites-4, .activites-56
     {
-        width: 115%;
+        width: 94%;
+        margin-bottom: 20px;
+    }
+    .activites-2, .activites-5
+    {
+        margin-bottom: 20px;
     }
     .titre_filtres
     {
         width: 100%;
+    
     }
     #filtres
     {
@@ -624,6 +630,10 @@ footer
     {
         font-size: 1.2em;
     }
+    #hebergements-titre
+    {
+        padding-left: 10px;
+    }
     .section-herbergements > aside
     {
         width: 100%;
@@ -635,6 +645,11 @@ footer
     .section-hebergements
     {
         padding: 0;
+    }
+    .liste-hebergements
+    {
+        padding-right: 10px;
+        padding-left: 10px;
     }
     aside
     {
@@ -650,6 +665,12 @@ footer
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #aside
+    {
+        padding-left: 10px;
         padding-right: 10px;
     }
 /*SECTION ACTIVITES*/
