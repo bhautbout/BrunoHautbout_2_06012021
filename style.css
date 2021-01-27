@@ -537,6 +537,7 @@ footer
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 30px;
+    line-height: 1.5em;
 }
 
 #apropos
@@ -730,4 +731,6 @@ footer
     {
         font-size: 0.8em;
     }
+    
+
 }
