@@ -578,6 +578,10 @@ footer
     {
         padding-bottom: 10px;
     }
+    .filtre_economique, .filtre_familial, .filtre_romantique, .filtre_animaux
+    {
+        margin-bottom: 10px;
+    }
     .slogan h1
     {
         font-size: 1.2em;
