@@ -650,6 +650,7 @@ footer
     {
         padding-right: 10px;
         padding-left: 10px;
+        padding-bottom: 20px;
     }
     aside
     {
@@ -694,14 +695,23 @@ footer
     {
         width: 100%;
     }
-    .activites-1 img
+    .activites-1 img, .activites-2 img, .activites-3 img, .activites-4 img, .activites-5 img, .activites-6 img
     {
-        height: 200px;
+        height: 115px;
         width: 100%;
+    }
+    .section-activites
+    {
+        margin-bottom: 20px;
     }
 
     /*FOOTER*/
 
+    footer
+    {
+        padding-left: 20px;
+        padding-right: 0;
+    }
     #footer
     {
         display: flex;
