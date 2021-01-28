@@ -36,6 +36,7 @@ ul
 {
     display: flex;
     list-style-type: none;
+    padding-inline-start: 0;
 } 
 
 header, .section-recherche, .section-hebergements, .section-activites, footer
@@ -578,7 +579,7 @@ footer
     }
     .logo img
     {
-        width: 200%;
+        width: 100%;
     }
     .bouton_recherche
     {
