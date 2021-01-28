@@ -1,3 +1,4 @@
+
 /* Eléments principaux de la page */
 
 body
@@ -150,6 +151,17 @@ input
     height: 2.9em;
     margin-left: -4px;
     vertical-align: middle;    
+}
+.bouton_loupe
+{
+    display: none;
+    padding: 0;
+}
+.bouton_loupe i
+{
+    background: #0065FC;
+    border: 10px solid #0065FC;
+    border-radius: 10px;
 }
 
 /*SECTION DES FILTRES*/
@@ -568,6 +580,17 @@ footer
     {
         width: 200%;
     }
+    .bouton_recherche
+    {
+        display: none;
+    }
+    .bouton_loupe
+    {
+        display: -webkit-inline-box;
+        margin-left: -4px;
+        color: white;
+    }
+   
     .activites-1, .activites-23, .activites-4, .activites-56
     {
         width: 94%;
