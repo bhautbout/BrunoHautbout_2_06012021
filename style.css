@@ -797,6 +797,56 @@ footer
     /*HEADER*/
     .logo img
     {
-        width: 10em;
+        width: 9em;
     }
+    nav a
+    {
+        font-size: 1.2em;
+        color: #181818;
+        padding-bottom: 3px;
+        text-decoration: none;
+    }
+    /*SECTION DES FILTRES*/
+    .titre_filtres
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /*SECTION DES HEBERGEMENTS*/
+    .section-hebergements
+    {
+        flex-direction: column-reverse;
+    }
+    .section-hebergements > article
+    {
+        width: 100%;
+    }
+    .hebergements
+    {
+        padding: 0;
+    }
+    /*SECTION LES PLUS POPULAIRES*/
+    .section-hebergements > aside
+    {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    aside
+
+    {
+        background-color: #F2F2F2;
+        margin-left: 0;
+    }
+    #aside
+    {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .aside-titre
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
