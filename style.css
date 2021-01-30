@@ -1,4 +1,3 @@
-
 /* Eléments principaux de la page */
 
 body
@@ -577,9 +576,31 @@ footer
         padding-left: 10px;
         padding-right: 10px;
     }
+    .logo
+    {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
     .logo img
     {
-        width: 100%;
+        width: 5em;
+    }
+    #logo-navigation
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+    }
+    #navigation
+    {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
     }
     .bouton_recherche
     {
@@ -592,10 +613,12 @@ footer
         color: white;
     }
    
-    .activites-1, .activites-23, .activites-4, .activites-56
+    .activites-1
     {
-        width: 94%;
+        width: 100%;
         margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     .activites-2, .activites-5
     {
@@ -637,6 +660,7 @@ footer
     {
             flex-direction: column-reverse;
             width: 100%;
+            padding: 0;
     }
     .section-hebergements > article
     {
@@ -672,10 +696,6 @@ footer
         margin-bottom: 30px;
         padding-top: 10px;
     }
-    .section-hebergements
-    {
-        padding: 0;
-    }
     .liste-hebergements
     {
         padding-right: 10px;
@@ -710,30 +730,39 @@ footer
     {
         font-size: 1.2em;
     }
+    .activites-23, .activites-56, .activites-4
+    {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .activites-3
+    {
+        margin-bottom: 20px;
+    }
+    .activites-4
+    {
+        margin-bottom: 20px;
+    }
     .section-activites
     {
         width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .section-activites > .activites
-    {
         flex-direction: column;
-        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 20px;
     }
-    .activites
+    #titre-activites
     {
-        width: 100%;
+        padding-left: 10px;
     }
+    
     .activites-1 img, .activites-2 img, .activites-3 img, .activites-4 img, .activites-5 img, .activites-6 img
     {
         height: 115px;
         width: 100%;
     }
-    .section-activites
-    {
-        margin-bottom: 20px;
-    }
+    
 
     /*FOOTER*/
 
