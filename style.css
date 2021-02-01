@@ -825,6 +825,16 @@ footer
     {
         padding: 0;
     }
+    #hebergements-titre
+    {
+        padding-left: 10px;
+    }
+    .liste-hebergements
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
     /*SECTION LES PLUS POPULAIRES*/
     .section-hebergements > aside
     {
@@ -833,7 +843,6 @@ footer
         margin-bottom: 25px;
     }
     aside
-
     {
         background-color: #F2F2F2;
         margin-left: 0;
@@ -848,5 +857,97 @@ footer
         padding-left: 10px;
         padding-right: 10px;
     }
+    /*SECTION ACTIVITES*/
+    .activites
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*SECTION FOOTER*/
+    #footer
+    {
+        justify-content: space-between
+    }
+    #apropos
+    {
+        width: 30%;
+    }
+    #noshebergements
+    {
+        width: 30%;
+    }
+    #assistance
+    {
+        width: 30%;
+    }
+    .footer h1
+    {
+        font-size: 1.4em;
+    }
+    .footer h2
+    {
+        font-size: 0.8em;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1300px)
+{
     
+    .section-hebergements
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
+    }
+    .section-hebergements > article
+    {
+        width: 100%;
+        
+    }
+    .section-hebergements > aside
+    {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .liste-hebergements
+    {
+        margin-bottom: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    #hebergements-titre
+    {
+        padding-left: 10px;
+    }
+    .hebergements
+    {
+        padding: 0;
+    }
+    aside
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .aside-titre
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #aside
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section-activites
+    {
+        padding: 0;
+    }
+    
+    .section-activites > .activites
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
