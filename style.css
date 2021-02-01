@@ -7,7 +7,7 @@ body
     font-weight: normal;
 }
 
-H1
+h1
 {
     font-size: 1.5em;
     font-weight: bold;
@@ -24,14 +24,12 @@ h2
 }
 
 h3
-
 {
     font-size: 0.8em;
     font-weight: normal;
 }
 
 ul
-
 {
     display: flex;
     list-style-type: none;
@@ -39,7 +37,6 @@ ul
 } 
 
 header, .section-recherche, .section-hebergements, .section-activites, footer
-
 {
     padding-right: 35px;
     padding-left: 35px;
@@ -70,7 +67,6 @@ header, .section-recherche, .section-hebergements, .section-activites, footer
 
 #logo-navigation
 {
-    
     display: flex;
     padding-top: 10px;
     margin-block-start: 0;
@@ -78,7 +74,6 @@ header, .section-recherche, .section-hebergements, .section-activites, footer
     padding-inline-start: 0;
 }
 #navigation
-
 {
     list-style-type: none;
     justify-content: flex-end;
@@ -137,7 +132,6 @@ input
     margin-left:auto;
     padding-left: 10px;
     vertical-align: middle;
-        
 }
 
 .bouton_recherche
@@ -177,7 +171,6 @@ input
 }
 
 .titre_filtres h2, .filtre_economique h2, .filtre_familial h2, .filtre_romantique h2, .filtre_animaux h2
-
 {
     font-weight: 500;
 }
@@ -202,7 +195,6 @@ input
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-
 {
     margin-right: 10px;
     margin-left: 0px;
@@ -265,7 +257,6 @@ input
 }
 
 .hebergements-1, .hebergements-2, .hebergements-3, .hebergements-4, .hebergements-5, .hebergements-6
-
 {
     align-items: center;
     padding: 6px;
@@ -286,13 +277,11 @@ input
 }
 
 .cannebiere_descrip, .hotelport_descrip, .hotelmouettes_descrip, .hotelmer_descrip, .hotelmer_descrip, .aubergepanier_descrip, .hotelamina_descrip
-
 {
 padding-left: 10px;
 }
 
 .afficherplus
-
 {
     margin-left: 10px;
     width: 100%;
@@ -321,7 +310,6 @@ aside
    
 }
 .aside
-
 {
     margin-bottom: 25px;
 }
@@ -368,8 +356,8 @@ aside
 {
     margin-top: 20px;
 }
-/*SECTION ACTIVITES*/
 
+/*SECTION ACTIVITES*/
 
 .section-activites
 {
@@ -382,7 +370,6 @@ aside
 }
 
 .activites h2
-
 {
     padding: 15px;
     font-weight: bold;
@@ -397,24 +384,19 @@ aside
 }
 
 #titre-activites
-
 {
     width: 100%;
 }
 
 .activites-1
-
 {
     width: 22%;
     background-color: white;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
-
 }
 
-
 .activites-1 img
-
 {
     width: 100%;
     height: 340px;
@@ -422,7 +404,6 @@ aside
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-sizing: border-box;
-    
 }
 
 .activites-23, .activites-56
@@ -433,11 +414,9 @@ aside
     flex-wrap: wrap;
     background-color: white;
     box-sizing: border-box;
-   
 }
 
 .activites-2
-
 {
     width: 100%;
     box-shadow: 4px 4px 6px #aaa;
@@ -446,14 +425,12 @@ aside
 }
 
 .activites-2 img
-
 {
     width: 100%;
     height: 170px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-
 }
 
 .activites-3
@@ -465,40 +442,33 @@ aside
 }
 
 .activites-3 img
-
 {
     width: 100%;
     height: 80px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-
 }
 
 .activites-4
-
 {
     width: 22%;
     background-color: white;
     box-shadow: 4px 4px 6px #aaa;
     border-radius: 15px;
     box-sizing: border-box;
-
 }
 
 .activites-4 img
-
 {
     width: 100%;
     height: 340px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-
 }
 
 .activites-5
-
 {
     width: 100%;
     box-shadow: 4px 4px 6px #aaa;
@@ -513,7 +483,6 @@ aside
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-
 }
 
 .activites-6
@@ -525,19 +494,15 @@ aside
 }
 
 .activites-6 img
-
 {
     width: 100%;
     height:110px ;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-
 }
 
-
 /*--SECTION FOOTER--*/
-
 
 footer
 {
@@ -571,6 +536,8 @@ footer
 @media screen and (max-width:768px)
 {
     
+    /*HEADER*/
+
     header, .section-recherche
     {
         padding-left: 10px;
@@ -602,6 +569,15 @@ footer
         flex-direction: row;
         justify-content: flex-end;
     }
+    .slogan h1
+    {
+        font-size: 1.2em;
+    }
+    .slogan h2
+    {
+        font-size: 0.8em;
+    }
+    /*ZONE RECHERCHE*/
     .bouton_recherche
     {
         display: none;
@@ -612,7 +588,29 @@ footer
         margin-left: -4px;
         color: white;
     }
-   
+    
+   /*SECTION DES FILTRES*/
+   .titre_filtres
+   {
+       width: 100%;
+   }
+   #filtres
+   {
+       flex-flow: column;
+   }
+   .titre_filtres
+   {
+       padding-bottom: 10px;
+   }
+   .filtre_economique, .filtre_familial, .filtre_romantique, .filtre_animaux
+   {
+       margin-bottom: 10px;
+   }
+   .nbrelogements h2
+    {
+        font-size: 0.8em;
+    }
+   /*ZONE ACTIVITES*/
     .activites-1
     {
         width: 100%;
@@ -624,43 +622,14 @@ footer
     {
         margin-bottom: 20px;
     }
-    .titre_filtres
-    {
-        width: 100%;
     
-    }
-    #filtres
-    {
-        flex-flow: column;
-    }
-    .titre_filtres
-    {
-        padding-bottom: 10px;
-    }
-    .filtre_economique, .filtre_familial, .filtre_romantique, .filtre_animaux
-    {
-        margin-bottom: 10px;
-    }
-    .slogan h1
-    {
-        font-size: 1.2em;
-    }
-    .slogan h2
-    {
-        font-size: 0.8em;
-    }
-    .nbrelogements h2
-    {
-        font-size: 0.8em;
-    }
-
     /*HEBERGEMENT*/
 
     .section-hebergements
     {
-            flex-direction: column-reverse;
-            width: 100%;
-            padding: 0;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
     }
     .section-hebergements > article
     {
@@ -724,6 +693,7 @@ footer
         padding-left: 10px;
         padding-right: 10px;
     }
+
 /*SECTION ACTIVITES*/
 
     #titre-activites h1
@@ -763,7 +733,6 @@ footer
         width: 100%;
     }
     
-
     /*FOOTER*/
 
     footer
@@ -789,7 +758,6 @@ footer
     {
         font-size: 0.8em;
     }
-    
 
 }
 @media screen and (min-width: 768px) and (max-width: 992px)
