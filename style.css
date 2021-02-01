@@ -159,6 +159,10 @@ input
 }
 
 /*SECTION DES FILTRES*/
+.titre_filtres
+{
+    padding-right: 10px;
+}
 
 #filtres
 {
@@ -853,7 +857,12 @@ footer
 }
 @media screen and (min-width: 993px) and (max-width: 1300px)
 {
-    
+    /*SECTION FILTRES*/
+    .titre_filtres
+    {
+        padding-right: 10px;
+    }
+    /*SECTION HEBERGEMENTS*/
     .section-hebergements
     {
         flex-direction: column-reverse;
