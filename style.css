@@ -865,20 +865,18 @@ footer
     /*SECTION HEBERGEMENTS*/
     .section-hebergements
     {
-        flex-direction: column-reverse;
-        width: 100%;
+        flex-direction: row;
         padding: 0;
     }
     .section-hebergements > article
     {
-        width: 100%;
+        width: 58%;
         
     }
     .section-hebergements > aside
     {
-        width: 100%;
+        width: 40%;
         padding: 0;
-        margin-bottom: 30px;
     }
     .liste-hebergements
     {
