@@ -657,6 +657,10 @@ footer
    {
        width: 100%;
    }
+   #filtres h2
+   {
+       font-weight: bold;
+   }
    #filtres
    {
        flex-flow: column;
@@ -712,13 +716,16 @@ footer
         border-radius: 0;
         padding: 0%;
     }
-    #hebergements-titre h1
+    #hebergements-titre h2
     {
         font-size: 1.2em;
+        font-weight: bold;
     }
     #hebergements-titre
     {
         padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .section-herbergements > aside
     {
@@ -734,6 +741,7 @@ footer
         padding-left: 10px;
         padding-bottom: 20px;
     }
+    /*LES PLUS POPULAIRES*/
     aside
     {
         margin: 0;
@@ -750,6 +758,13 @@ footer
         justify-content: space-between;
         padding-right: 10px;
         padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .aside-titre h2
+    {
+        font-size: 1.2em;
+        font-weight: bold;
     }
     #aside
     {
@@ -759,9 +774,16 @@ footer
 
 /*SECTION ACTIVITES*/
 
-    #titre-activites h1
+    .activites h3
+    {
+        font-size: 1em;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+    #titre-activites h2
     {
         font-size: 1.2em;
+        font-weight: bold;
     }
     .activites-23, .activites-56, .activites-4
     {
@@ -808,16 +830,20 @@ footer
         display: flex;
         flex-direction: column;
         width: 100%;
+        line-height: 1.2em;
+        padding-top: 10px;
     }
     #apropos, #noshebergements, #assistance
     {
         width: 100%;
-    }
-    .footer h1
-    {
-        font-size: 1.2em;
+        line-height: 1.2em;
     }
     .footer h2
+    {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    .footer h3
     {
         font-size: 0.8em;
     }
@@ -911,7 +937,7 @@ footer
     }
     .footer h2
     {
-        font-size: 0.8em;
+        font-size: 1.4em;
     }
 }
 @media screen and (min-width: 993px) and (max-width: 1300px)
