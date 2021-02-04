@@ -35,13 +35,23 @@
         <section class="section-recherche">
             <div id="zone_recherche" >
                 <div id="barre_recherche">
-                    <span class="barre_recherche"><i class="fas fa-map-marker-alt"></i></span>
-                    <form method="GET" action="search">
-                        <input type="search" placeholder="Saisir une ville" value="Marseille, France"/>
-                        <span class="button"> <button class="bouton_recherche" type="button"> Rechercher</button></span>
-                        <span class="button"> <button class="bouton_loupe" type="button"> <i class="fas fa-search"></i></button></span>
-                    </form>
-                </div>
+                    <span class="recherche-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <div id="recherche-form">
+                        <form method="GET" action="search">
+                            <input type="search" placeholder="Saisir une ville" value="Marseille, France"/>
+                        </form>
+                    </div>
+                    <span class="button">
+                        <button class="bouton_recherche" type="button"> Rechercher</button>
+                    </span>
+                    <span class="button">
+                        <button class="bouton_loupe" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </span>
+                    </div>
             </div>
             <!--SECTION DES FILTRES-->
             <div id="filtres">
