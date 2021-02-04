@@ -1089,3 +1089,11 @@ footer
         padding-right: 35px;
     }
 }
+/*--ECRAN SUPERIEUR--*/
+@media screen and (min-width: 1301px)
+{
+    .bouton_recherche
+    {
+        height: 3.28em;
+    }
+}
